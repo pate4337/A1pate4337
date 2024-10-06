@@ -1,0 +1,16 @@
+.pate4337PersonalCSS {
+    border: 10px solid blue; /* Thick solid border */
+    border-radius: 20px; /* Rounded corners */
+    width: 40%; /* Adjust width as needed */
+    margin: 10px; /* Add margins for spacing */
+    padding: 10px; /* Add padding */
+    flex: 1;
+  }
+  
+  .pate4337CountryCSS {
+    border: 10px double red; /* Thick double border */
+    width: 40%; /* Adjust width as needed */
+    margin: 10px;
+    padding: 10px;
+    flex: 1;
+  }

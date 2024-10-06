@@ -1,0 +1,13 @@
+
+<section [ngStyle]="{ 'display': 'flex' }">
+    <figure *ngIf="personalData">
+      <img [ngClass]="{'pate4337PersonalCSS': personalData.pate4337StudentNumber === myStudentNumber}" 
+           src="{{ personalData.pate4337ImageName }}" alt="Personal Image">
+      <figcaption>{{ personalData.pate4337Name }}</figcaption>
+    </figure>
+    <figure *ngIf="countryData">
+      <img [ngClass]="{'pate4337CountryCSS': countryData.pate4337CountryId === myCountryCode}" 
+           src="{{ countryData.pate4337FlagImage }}" alt="Country Flag">
+      <figcaption>{{ countryData.pate4337CountryName }}</figcaption>
+    </figure>
+  </section>
